@@ -100,7 +100,7 @@ return index;
   let findItemIndex=findItem();
   let newItems=this.state.items.slice();
     if(findItemIndex===-1){
-        item["index"]=this.state.items.length+1
+        item["index"]=this.state.items.length
         item["quantity"]=1
        
         newItems.push(item);
